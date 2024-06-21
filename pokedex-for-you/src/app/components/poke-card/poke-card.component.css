@@ -1,8 +1,66 @@
 .example-card {
     max-width: 400px;
   }
+  .card-content{
+    background-color: aqua;
+  }
+  .header-image {
+    margin: 5px;
+  }
+  .card-desc{
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(235, 235, 235);
+  }
+
+  .type-grass {
+    background-image: url('/assets/type/12.png');
+    background-size:cover;
+    /* background-image: -webkit-image-set(); */
+  }
+
+  .type-water {
+    background-image: url('/assets/type/11.png');
+    background-size:cover;
+    /* background-image: -webkit-image-set(); */
+  }
+
+  .type-fire {
+    background-image: url('/assets/type/10.png');
+    background-blend-mode:darken;
+    background-size:cover;
+    /* background-image: -webkit-image-set(); */
+  }
+
+
+  .back-ground-img{
+    background-blend-mode: darken;
+    opacity: 90%;
+  }
+
+  .type-grass-back-ground-image {
+    background-image: url('/assets/theme/grass.jpeg');
+    background-size:cover;
+    /* background-image: -webkit-image-set(); */
+  }
+
+  .type-fire-back-ground-image {
+    background-image: url('/assets/theme/fire.jpg');
   
-  .example-header-image {
-    background-image: url('/assets/25.png');
-    background-size: cover;
+    background-size:cover;
+    /* background-image: -webkit-image-set(); */
+  }
+
+  .type-water-back-ground-image {
+    background-image: url('/assets/theme/water.avif');
+    background-size:cover;
+    /* background-image: -webkit-image-set(); */
+  }
+
+
+  .pokemon-name{
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(128, 90, 139);
+    border-radius: 5px;
   }

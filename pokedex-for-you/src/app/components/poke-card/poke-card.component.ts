@@ -17,7 +17,8 @@ export class PokeCardComponent implements OnInit{
   @Input() id?:number ;
 
   officialsrc ="src/assets/official-artwork/1.png"
-  // https://github.com/PokeAPI/sprites?tab=readme-ov-file#sprites
+  // Pokemon git hub links https://github.com/PokeAPI/sprites?tab=readme-ov-file#sprites
+//  Official art works of types: https://github.com/PokeAPI/sprites/blob/master/sprites/types/generation-viii/sword-shield/10.png
   constructor(){
   
   }

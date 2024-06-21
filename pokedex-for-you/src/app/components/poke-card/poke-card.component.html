@@ -1,12 +1,14 @@
 <mat-card class="example-card" appearance="outlined">
-    <mat-card-header>
-      <div mat-card-avatar class="example-header-image"></div>
-      <mat-card-title>pokemon.name</mat-card-title>
-      <mat-card-subtitle>pokemon.type</mat-card-subtitle>
+    <mat-card-header class="card-content">
+      <div mat-card-avatar class="header-image type-{{pokemon.type}}"></div>
+      <mat-card-title class="pokemon-name">{{pokemon.name}}</mat-card-title>
+      <mat-card-subtitle>{{pokemon.type}}</mat-card-subtitle>
     </mat-card-header>
-    <img mat-card-lg-image src="\assets\official-artwork\{{pokemon.id}}.png" alt="Photo of a Shiba Inu" >
-    <mat-card-content>
-     <p>${{pokemon}}</p>
+    <div class="back-ground-img type-{{pokemon.type}}-back-ground-image ">
+      <img mat-card-lg-image src="\assets\official-artwork\{{pokemon.id}}.png" alt="Photo of a Shiba Inu" >
+    </div>
+    <mat-card-content class="card-desc">
+     <p>{{pokemon.description}}</p>
     </mat-card-content>
     <mat-card-actions>
       <button mat-button>LIKE</button>
